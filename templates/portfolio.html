@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for ('static', filename='css/portfolio.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<div class="mainContainer">
+    <div class="menu">
+        <div><img src="http://127.0.0.1:5000\static\img\Mardana.jpg" alt="#" class="logo"></div>
+        <input type="text" placeholder="sear" class="searchInput"><button class="searchBtn">search</button>
+        <div class="about"> About Me </div>
+        <div class="work"> My Work </div>
+        <div class="contact"> Contact </div> 
+    </div>
+    <div>
+        <p class="aboutInfo">
+            Welcome to my portfolio. My Name is Khuzaima Ilyas and I am a beginner web developer.And this page is meant to display the improvements I make as I learn. Along with obstacles I have mastered over the years. 
+        </p>
+    </div>
+
+    <h1 class="portfolioTitle">My Portfolio</h1>
+
+    <div class="portfolioBox">
+        <div class="website1"> <img src="http://127.0.0.1:5000\static\img\introShot.png" class="website1Img" alt=""></div>
+        <div class="website2"><img src="http://127.0.0.1:5000\static\img\mockup.png" class="website2Img" alt=""></div>
+        <div class="website3"><img src="http://127.0.0.1:5000\static\img\ICSsite.png" class="website3Img" alt=""></div>
+    </div>
+
+    <h1 class="contactHead">Contact Us</h1>
+
+    <div class="contactBox">
+       <input type="text" placeholder="Name" class="nameInput"> 
+    <input type="text"  placeholder="Email" class="emailInput"> 
+       <input type="text" placeholder="Comment" class="commentsInput" >
+       <button class="submitBtn"> Submit</button>
+
+    </div>
+    <div class="outPut">
+        <div class="nameOutput"></div>
+        <div class="emailOutput"></div>
+        <div class="commentOutput"></div>
+    </div>
+
+          <button class="weatherInfo"><a href="http://127.0.0.1:5000/weather">See weather</a></button>
+    
+        
+       
+
+</div>
+</body>
+<script src="http://127.0.0.1:5000/static/js/portfolio.js"></script>
+</html>
